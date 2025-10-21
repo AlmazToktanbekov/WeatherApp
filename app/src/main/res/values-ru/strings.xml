@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="search_hint">Поиск города…</string>
+    <string name="next_days">Следующие дни</string>
+    <string name="hourly_forecast">Почасовой прогноз</string>
+    <string name="humidity">Влажность</string>
+    <string name="wind_speed">Ветер</string>
+    <string name="welcome_text">Добро пожаловать в Weather App</string>
+    <string name="back">Назад</string>
+</resources>
+
+
+

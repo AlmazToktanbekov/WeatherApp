@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_for_next">
+
+
+    <!-- Back Button -->
+
+
+    <!-- Title -->
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="73dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+
+        android:layout_marginTop="22dp"
+
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/glass_background"
+        android:text="Назад"
+        android:textColor="@android:color/white"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="25dp"
+
+        android:text="    Следующие дни"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- ScrollView for the days -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Прогноз на 14 дней"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/days_chart"
+        android:layout_width="384dp"
+        android:layout_height="187dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/glass_background"
+        />
+
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/days_chart"
+        android:layout_alignParentStart="true"
+
+
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:padding="20dp">
+
+        <LinearLayout
+
+            android:id="@+id/days_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+
+    </ScrollView>
+
+</RelativeLayout>
+

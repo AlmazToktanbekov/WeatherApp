@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="cancel_label">Cancel</string>
+    <string name="store_label">Store</string>
+    <string name="license_title">License</string>
+    <string name="libraries_title">Libraries &amp; Resources</string>
+    <string name="developer_info_title">About App</string>
+    <string name="design_api_title">Design &amp; API</string>
+    <string name="application_info_title">Application Info</string>
+    <string name="application_info_text">
+        <![CDATA[
+            <p>
+            <b>Weather App</b>
+            <br/>
+            Version: %1$s
+            <br/>
+            Developer: Toktanbekov Almaz
+            </p>
+        ]]>
+    </string>
+    <string name="developer_info_text" translatable="false">
+        <![CDATA[
+            <p></p>
+        ]]>
+    </string>
+    <string name="design_api_text" translatable="false">
+        <![CDATA[
+            <p>
+            <a href="http://openweathermap.org/">OpenWeatherMap</a> Weather API
+            </p>
+        ]]>
+    </string>
+    <string name="license_text" translatable="false">
+        <![CDATA[
+            <p></p>
+        ]]>
+    </string>
+    <string name="libraries_text" translatable="false">
+        <![CDATA[
+           <p>
+            <a href="https://github.com/square/retrofit">Retrofit</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/ReactiveX/RxAndroid">RxAndroid</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/objectbox/objectbox-java">ObjectBox</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/mikepenz/FastAdapter">FastAdapter</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/bumptech/glide">Glide</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/airbnb/lottie-android">Lottie-Android</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/MiguelCatalan/MaterialSearchView">MaterialSearchView</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/pwittchen/prefser">Prefser</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/PhilJay/MPAndroidChart">MPAndroidChart</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/InflationX/Calligraphy">Calligraphy</a> - Apache-2.0
+            <br/>
+            <a href="https://github.com/google/material-design-icons">Material design icons</a> - Creative Common Attribution 4.0 International License
+           </p>
+
+        ]]>
+</string>
+    <string name="current_label">Current</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="wind_label">Wind</string>
+    <string name="next_4_days_hourly">Next 4 days/hourly</string>
+    <string name="next_15_days_label">Next 15 days</string>
+    <string name="search_for_a_city_label">Search for a city</string>
+    <string name="zero_label">0%d</string>
+    <string name="wind_unit_label">%.0f km/h</string>
+    <string name="openweathermap_api_key_label">OpenWeatherMap Key</string>
+    <string name="api_key_description">An API key is required to use the app. Get it for free from OpenWeatherMap website.</string>
+    <string name="get_api_key_label">Get API Key</string>
+    <string name="api_key_label">API Key</string>
+    <string name="english_label" translatable="false">English</string>
+    <string name="search_label">Search</string>
+    <string name="no_internet_message">Check your internet connection</string>
+    <string name="no_city_found_message">City with this name not found</string>
+    <string name="invalid_api_key_message">Invalid API key. Please try again later</string>
+    <string name="network_exception_message">Connection problem</string>
+    <string name="retry_label">Retry</string>
+    <string name="ok_label">OK</string>
+    <string name="night_mode_label">Night Mode</string>
+    <string name="search_hint">Поиск города…</string>
+    <string name="next_days">Следующие дни</string>
+    <string name="hourly_forecast">Почасовой прогноз</string>
+    <string name="humidity">Влажность</string>
+    <string name="wind_speed">Ветер</string>
+    <string name="welcome_text">Welcome to Weather App</string>
+    <string name="back">Назад</string>
+</resources>

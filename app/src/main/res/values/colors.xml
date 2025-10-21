@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303F9F</color>
+    <color name="colorPrimaryDark">#1A237E</color>
+    <color name="colorAccent">#FF4081</color>
+    
+    <!-- Weather App Colors -->
+    <color name="weather_blue">#1A237E</color>
+    <color name="weather_light_blue">#303F9F</color>
+    <color name="weather_white">#FFFFFF</color>
+    <color name="weather_transparent">#80000000</color>
+    
+    <!-- Night Theme Colors -->
+    <color name="colorPrimaryNight">#303F9F</color>
+    <color name="colorPrimaryDarkNight">#1A237E</color>
+    
+    <!-- Material Colors -->
+    <color name="material_blue">#2196F3</color>
+</resources>

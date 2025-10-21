@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Основной фон с прозрачностью -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <gradient
+                android:angle="270"
+                android:startColor="#EF00155D"
+                android:endColor="#2BFFFFFF" />
+        </shape>
+    </item>
+
+    <!-- Эффект стекла с размытием (имитация) -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp"/>
+            <stroke
+                android:width="1dp"
+                android:color="#40FFFFFF"/>
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+
+</layer-list>
